@@ -1,0 +1,41 @@
+📊 Implementasi Interpolasi Lagrange Orde-3
+Deskripsi
+Project ini membahas implementasi metode Interpolasi Lagrange orde-3 untuk melakukan pendekatan nilai fungsi berdasarkan data diskrit.
+Metode Lagrange digunakan untuk membentuk polinom interpolasi dari beberapa titik data sehingga dapat digunakan untuk mengestimasi nilai fungsi pada titik tertentu secara numerik.
+
+ Data
+| x | f(x) |
+|---|------|
+| 0.0 | 1.00000 |
+| 0.2 | 1.22140 |
+| 0.4 | 1.49182 |
+| 0.6 | 1.82212 |
+| 0.8 | 2.22554 |
+
+Polinom Lagrange
+Nilai basis:
+- L0 = 0.1171875  
+- L1 = 1.0546875  
+- L2 = -0.2109375  
+- L3 = 0.0390625  
+
+Hasil interpolasi:
+P_3(x) = 1.1618786
+
+Tujuan Project
+- Memahami konsep interpolasi Lagrange
+- Membangun polinom interpolasi orde-3
+- Mengestimasi nilai fungsi dari data diskrit
+- Implementasi metode numerik menggunakan Excel
+
+Insight
+Interpolasi Lagrange memungkinkan estimasi nilai fungsi tanpa mengetahui bentuk fungsi aslinya, hanya berdasarkan data titik yang tersedia.
+
+Tools
+- Microsoft Excel
+- Metode Numerik
+
+Penutup
+Project ini merupakan latihan implementasi metode numerik untuk memahami proses interpolasi dan pendekatan fungsi menggunakan polinom Lagrange.
+
+#MetodeNumerik #InterpolasiLagrange #Excel #NumericalMethod
